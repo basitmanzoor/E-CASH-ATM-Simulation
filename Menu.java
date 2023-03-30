@@ -92,7 +92,7 @@ public class Menu extends Accounts{
 
         switch(selection){
             case 1:
-               System.out.println("Current Account Balance: " + moneyFormat.format(getCurrent()));
+               System.out.println("Current Account Balance: " + moneyFormat.format(getCurrentBalance()));
                getAccountType();
                break;
             case 2:
@@ -126,7 +126,7 @@ public class Menu extends Accounts{
 
         switch(selection){
             case 1:
-               System.out.println("Savings Account Balance: " + moneyFormat.format(getSavings()));
+               System.out.println("Savings Account Balance: " + moneyFormat.format(getSavingsBalance()));
                getAccountType();
                break;
             case 2:
