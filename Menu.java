@@ -126,7 +126,7 @@ public class Menu extends Accounts{
 
         switch(selection){
             case 1:
-               System.out.println("SagetSavings Account Balance: " + moneyFormat.format(getSavings()));
+               System.out.println("Savings Account Balance: " + moneyFormat.format(getSavings()));
                getAccountType();
                break;
             case 2:
